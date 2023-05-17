@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About Acho</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body {
+    margin:0px;
+    padding:0px;
+    min-width: fit-content;
+}
+
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    border: 1px soild black;
+    box-shadow: 0 1px 20px 0 reba(0, 0, 0, 0.2);
+  }
+
+
+  section {
+    margin-bottom:24px;
+  }
+
+  h1{
+    margin:0px;
+    padding:0px;
+    font-size:36px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 8px;
+    text-align: right;
+  }
+
+  h2 {
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    color:#2aad3c;
+    font-weight: 400;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #3d3c3c;
+    padding-bottom: 5px;
+ }
+
+  .frog{
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    float: left;
+  }
+
+  .title{
+    font-size:16px;
+    color:#7c7c7c;
+    font-weight: bold;
+    float: right;
+    line-height: 16px;
+  }
+  .float-wrap {
+    overflow: hidden;
+    margin-bottom: 4px;
+    }
+
+  .text{
+    line-height: 16px;
+    font-size: 13px;
+    font-weight:bold;
+    color:black;
+    margin-bottom:6px;
+  }
+
+  .subtext{
+    font-size: 13px;
+    color:#3a3a3a;
+    padding-left:16px;
+    margin-bottom:8px;
+  }
+
+  .righttext{
+    font-size:11px;
+    font-weight: 300;
+    color: #282828;
+    float: right;
+  }
+</style>
+
+<body>
+  <audio loop autoplay controls>
+    <source src="cat.mp3" type="audio/mp3">
+</audio>
+  <div class = "mainbox">  
+    <div>
+        <img class="frog" src="https://i.postimg.cc/4x5ZLDB2/t043597jk8v-u055afalu9e-844e26a259ec-512-480.jpg">
+        <h1>Dayoung Lee</h1>   
+        <p class ="title">Web Backend engineer</p>
+        <br><br><br><br>
+    </div>
+
+    <section>
+        <h2>Introduce</h2>
+        <div>
+            <p class="subtext">안녕하세요, 저는 내일배움캠프 6기 node.js 에 참가하게 된 이다영입니다.<br>
+              캠프 생활을 하며 많은 것들을 배우고 있습니다. <br>앞으로도 잘 부탁드립니다.</p>
+        </div>    
+    </section>
+    <br>
+
+    <section>
+        <h2>My favorite & My hobby</h2>
+        <div class="float-wrap">
+            <p class="text">캘리그라피</p>
+            <p class ="subtext">마음의 안정을 찾아</p>         
+        </div>
+
+        <div class="float-wrap">
+            <p class="text">예쁜 카페</p>
+            <p class ="subtext">공간이 좋으면 기분 업!</p>  
+        </div>
+
+        <div class="float-wrap">
+            <p class="text">오류 해결</p>
+            <p class ="subtext">즐겁습니다.</p>
+        </div>
+
+        <div class="float-wrap">
+            <p class="text">꿈</p>
+            <p class ="subtext">개발자라고 자신을 소개할 수 있는 개발자</p>
+        </div>
+
+    </section>
+    <br>
+
+    <br>
+  </div>
+</body>
+
+</html>
